@@ -1,37 +1,82 @@
 <!-- Markup the content below with tags and attributes such that it can be styled in CSS-->
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<!-- Link your CSS stylesheet -->
-    
-</head>
-<body>
-        Plan your Visit
-        Learn about the Park
-        Get Involved
-   
-      
-      "header_img.jpg"
-      Yosemite Park Guide
-      Come explore California’s beautiful wilderness.
-      Always open. Reservations are not available or required to enter the park.
-      
-      Not just a great valley, but a shrine to human foresight, the strength of granite, the power of glaciers, the persistence of life, and the tranquility of the High Sierra.
-      
-      First protected in 1864, Yosemite National Park is best known for its waterfalls, but within its nearly 1,200 square miles, you can find deep valleys, grand meadows, ancient giant sequoias, a vast wilderness area, and much more.
-      
-      "https://image.flaticon.com/icons/svg/2979/2979348.svg"
-      Fire is a natural and essential part of Yosemite. We manage fire carefully and study how it interacts with the park’s ecosystems. This blog provides updates about fires in Yosemite. Check for current fire restrictions.
-      
-      "https://image.flaticon.com/icons/svg/820/820374.svg"
-      We strongly recommend that you make reservations for lodging, camping, and backpacking. You can pay the park entrance fee upon arrival (there's no need to pay it in advance).
-    
-      "footer_img.png"
-      
-      
-        Plan your Visit
-        Learn about the Park
-        Get Involved
-      
-</body>
+  <head>
+    <!-- Link your CSS stylesheet -->
+    <link rel="stylesheet" href="index.css" />
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"> -->
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <nav>
+          <a style="background-color: #ff764e" href="#">Plan your Visit</a>
+          <a style="background-color: #5ed3eb" href="#">Learn about the Park</a>
+          <a style="background-color: #ffcd69" href="#">Get Involved</a>
+        </nav>
+      </div>
+      <div class="first">
+        <span class="logo">
+          <img
+            style="border-radius: 200px"
+            src="assets/header_img.jpg"
+            alt=""
+            width="27%"
+          />
+        </span>
+        <span>
+          <h1>Yosemite Park Guide</h1>
+          <p> <strong> Come explore California’s beautiful wilderness.</strong></p>
+          <p><strong>
+            Always open.Reservations are not available or <br>
+            required to enter the
+            park.</strong>
+          </p>
+        </span>
+      </div>
+      <div style="background-color: #ddb9a3" class="second">
+        <p>
+          Not just a great valley, but a shrine to human foresight, the strength
+          of granite, the power of glaciers, the persistence of life, and the
+          tranquility of the High Sierra. <br> <br>
+          First protected in 1864, Yosemite National Park is best known for its
+          waterfalls, but within its nearly 1,200 square miles, you can find
+          deep valleys, grand meadows, ancient giant sequoias, a vast wilderness
+          area, and much more.
+        </p>
+      </div>
+      <div class="third">
+        <img
+          src="https://image.flaticon.com/icons/svg/2979/2979348.svg"
+          alt=""
+          width="30%"
+        />
+        <br />
+        Fire is a natural and essential part of Yosemite. We manage fire
+        carefully and study how it interacts with the park’s ecosystems. This
+        blog provides updates about fires in Yosemite. Check for
+        <strong> current fire restrictions.</strong>
+      </div>
+      <div class="fourth">
+        <img
+          src="https://image.flaticon.com/icons/svg/820/820374.svg"
+          alt=""
+          width="30%"
+        />
+        <br />
+        We strongly recommend that you make reservations for lodging, camping,
+        and backpacking. You can pay the
+        <strong> park entrance fee </strong>upon arrival (there's no need to pay
+        it in advance).
+      </div>
+      <div class="footer">
+        <img src="assets/footer_img.jpg" alt="" />
+        <nav style="background-color: #f9e7dc">
+          <a style="background-color: #ff764e" href="#">Plan your Visit</a>
+          <a style="background-color: #5ed3eb" href="#">Learn about the Park</a>
+          <a style="background-color: #ffcd69" href="#">Get Involved</a>
+        </nav>
+      </div>
+    </div>
+  </body>
 </html>
